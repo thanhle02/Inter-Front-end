@@ -102,6 +102,7 @@ body {
 .content-right {
     width: 1768px;
 float: right;
+padding-top: 10px;
 }
 
 .content-background {
