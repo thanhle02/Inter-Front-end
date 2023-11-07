@@ -21,7 +21,7 @@ body {
     height: 935px;
 }
 
-.menu li {
+ .menu li {
     margin-top: 20px;
     border-bottom: 1px solid #cdcd;
     padding-bottom: 10px;
@@ -32,13 +32,14 @@ body {
     text-decoration: none;
     color: #fff;
     margin-left: 10px;
-}
+} 
 
 .content-left {
     background-color: black;
     width: 150px;
-    float: left;
+    float: le;
     height: 935px;
+    float: left;
 }
 
 .logo {
@@ -100,7 +101,7 @@ body {
 
 .content-right {
     width: 1768px;
-
+float: right;
 }
 
 .content-background {
@@ -108,12 +109,12 @@ body {
     margin-left: 11%;
 }
 
-.footer-right {
+.footer {
     margin-left: 30px;
 
 }
 
-.footer-right p {
+.footer p {
     width: 1510px;
 }
 
@@ -153,7 +154,7 @@ body {
     }
 
     .content-left {
-        display: none;
+        /* display: none; */
         width: 10px;
     }
 
@@ -245,75 +246,15 @@ body {
     .text-content {
         width: 500px;
     }
-
-    .box-content p {
-        text-align: justify;
+    .footer p {
+        width: 500px;
+     text-align: center;
     }
-
-
-
-
-    .content-menu {
-        display: block;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .content-menu a {
-        display: block;
-    }
-
-    .content-menu a.icon {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-
-    .content-menu a.icon:hover {
-        color: red;
-    }
-
-    #nav {
-        display: none;
-    }
-
-    .box {
-        display: grid;
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-        margin-left: 30%;
-    }
+    
 
  
 }
 
-.content-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.content-menu a {
-    text-decoration: none;
-    font-size: 20px;
-    margin: 20px;
-    font-weight: bold;
 
-}
 
-.content-menu a.icon {
-    display: none;
-}
-
-.content-menu a img:hover {
-    border: 2px solid red;
-}
-
-#nav a {
-    color: black;
-}
-
-#nav a:hover {
-    color: red;
-}
